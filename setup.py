@@ -14,6 +14,6 @@ setup(
     packages=find_packages(include=["ReplenishmentEnv"]),
     include_package_data=True,
     package_data={
-        "ReplenishmentEnv": ["config/*.yml", "data/*/*", "ReplenishmentEnv.*py"],
+        "ReplenishmentEnv": ["config/*.yml", "data/*/*", "env/*/*", "utility/*", "wrapper/*", "ReplenishmentEnv.*py"],
     }
 )
